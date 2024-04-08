@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+  
+  <!-- Licensed under the Apache 2.0 License -->
+  <link rel="stylesheet" type="text/css" href="../_static/fonts/open-sans/stylesheet.css" />
+  <!-- Licensed under the SIL Open Font License -->
+  <link rel="stylesheet" type="text/css" href="../_static/fonts/source-serif-pro/source-serif-pro.css" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/bootstrap-theme.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Sales &#8212; Onsite Solutions  documentation</title>
+    <link rel="stylesheet" href="../_static/guzzle.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Factory" href="production.html" />
+    <link rel="prev" title="CORE MODULES" href="index.html" />
+
+<style type="text/css">
+      #topnav { border-top: 45px solid #000; }
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-97742247-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-97742247-1');
+</script>
+
+
+  
+   
+
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="production.html" title="Factory"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="CORE MODULES"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Onsite Solutions  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">CORE MODULES</a> &#187;</li> 
+      </ul>
+    </div>
+
+<div id="topnav"/>
+
+
+    <div class="container-wrapper">
+
+      <div id="mobile-toggle">
+        <a href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
+      </div>
+  <div id="left-column">
+    <div class="sphinxsidebar"><a href="https://onsite.solutions/docs/" class="text-logo">Onsite Solutions</a>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <h2>TABLE OF CONTENTS</h2>
+  </div>
+  <div class="sidebar-toc">
+    
+    
+      <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">CORE MODULES</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Sales</a></li>
+<li class="toctree-l2"><a class="reference internal" href="production.html">Factory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servicing.html">Servicing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../DocsSalesOrder/index.html">THE INSTALLATION ORDER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DocsPM/index.html">PROJECT MANAGEMENT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DocsOther/index.html">MISCELLANEOUS</a></li>
+</ul>
+
+    
+  </div>
+</div>
+<div class="sidebar-block">
+  <div class="sidebar-wrapper">
+    <div id="main-search">
+      <form class="form-inline" action="../search.html" method="GET" role="form">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control" placeholder="Search...">
+        </div>
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+        <div id="right-column">
+          
+          <div role="navigation" aria-label="breadcrumbs navigation">
+            <ol class="breadcrumb">
+              <li><a href="../index.html">Docs</a></li>
+              
+                <li><a href="index.html">CORE MODULES</a></li>
+              
+              <li>Sales</li>
+            </ol>
+          </div>
+          
+          <div class="document clearer body">
+            
+  <div class="section" id="sales">
+<h1>Sales<a class="headerlink" href="#sales" title="Permalink to this headline">¶</a></h1>
+<p>The sales module integrates with all other modules to give you a continuous view of your customer - from initial sales contact through to installing equipment for the customer, periodically servicing it (if required) and the ensuing years of the relationship.</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#the-sales-dashboard-opportunity-detail-screen" id="id1">The Sales Dashboard &amp; Opportunity Detail Screen</a></p>
+<ul>
+<li><p><a class="reference internal" href="#dashboard-view-calendar-view" id="id2">Dashboard View &amp; Calendar View</a></p></li>
+<li><p><a class="reference internal" href="#capturing-a-new-opportunity" id="id3">Capturing a New Opportunity</a></p></li>
+<li><p><a class="reference internal" href="#managing-sales-tasks" id="id4">Managing Sales Tasks</a></p>
+<ul>
+<li><p><a class="reference internal" href="#creating-a-new-sales-task-for-an-opportunity" id="id5">Creating a new sales task for an opportunity</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#managing-opportunities" id="id6">Managing Opportunities</a></p>
+<ul>
+<li><p><a class="reference internal" href="#working-with-an-opportunity" id="id7">Working with an Opportunity.</a></p></li>
+<li><p><a class="reference internal" href="#managing-contacts-for-the-opportunity" id="id8">Managing Contacts for the Opportunity</a></p></li>
+<li><p><a class="reference internal" href="#related-documents" id="id9">Related Documents</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#sales-statistics" id="id10">Sales Statistics</a></p></li>
+<li><p><a class="reference internal" href="#sales-references" id="id11">Sales References</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#building-up-the-detail-for-a-potential-sales-order" id="id12">Building Up the Detail for a Potential Sales Order</a></p>
+<ul>
+<li><p><a class="reference internal" href="#estimating" id="id13">Estimating</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="the-sales-dashboard-opportunity-detail-screen">
+<h2><a class="toc-backref" href="#id1">The Sales Dashboard &amp; Opportunity Detail Screen</a><a class="headerlink" href="#the-sales-dashboard-opportunity-detail-screen" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="dashboard-view-calendar-view">
+<h3><a class="toc-backref" href="#id2">Dashboard View &amp; Calendar View</a><a class="headerlink" href="#dashboard-view-calendar-view" title="Permalink to this headline">¶</a></h3>
+<p>The Salesperson may choose one of these views as best suits them.</p>
+<p>The dashboard view enables them to view all of their own tasks and opportunities, with easy filter and manipulation of interactive lists.</p>
+<img alt="../_images/Dash.jpg" src="../_images/Dash.jpg" style="width: 800px;" />
+<p>While the calendar view enables them to view all sales tasks for the company for the week or month, with interactive click through to details about the opportunity and estimate.</p>
+<img alt="../_images/Calendar.jpg" src="../_images/Calendar.jpg" style="width: 800px;" />
+</div>
+<div class="section" id="capturing-a-new-opportunity">
+<h3><a class="toc-backref" href="#id3">Capturing a New Opportunity</a><a class="headerlink" href="#capturing-a-new-opportunity" title="Permalink to this headline">¶</a></h3>
+<p>Tap the ‘New Opportunity’ button on the Sales dashboard to bring up the dialogue shown below (and darken the background screen).</p>
+<p>Note that this dialogue is customised for each client, dependent on their client base and how they describe their job types.</p>
+<img alt="../_images/Opportunity.jpg" src="../_images/Opportunity.jpg" style="width: 800px;" />
+<p>On the screen shot above, the ‘Domestic Opportunity’ accordian section of the form has been expanded while the others remain collapsed.</p>
+<p>Details for the new opportunity are entered as required.</p>
+<p>Note the ‘Contact Exists’ field, to check if the contact to be entered is already on the system.  If so, the new opportunity would be entered on the existing contact screen.</p>
+</div>
+<div class="section" id="managing-sales-tasks">
+<h3><a class="toc-backref" href="#id4">Managing Sales Tasks</a><a class="headerlink" href="#managing-sales-tasks" title="Permalink to this headline">¶</a></h3>
+<p>Sales tasks for the week are listed at the top of the dashboard, indicating the type of task, its due date, and the opportunity and contact it relates to.</p>
+<ul class="simple">
+<li><p>Overdue tasks may be viewed by clicking the list-filtering link above the list.</p></li>
+<li><p>To quickly mark the task completed, press the ‘tick’ icon to the right.</p></li>
+<li><p>For the detail view of the opportunity, just click through the opportunity name.</p></li>
+</ul>
+<p>Similarly click through the contact name for detail information about the contact, including their employing organisation if any, previous estimates, installations and servicing done.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A new tab will open in your browser for this information to accomodate keeping multiple opportunities or contacts to hand, for example, if waiting on a call back.</p>
+</div>
+<div class="section" id="creating-a-new-sales-task-for-an-opportunity">
+<h4><a class="toc-backref" href="#id5">Creating a new sales task for an opportunity</a><a class="headerlink" href="#creating-a-new-sales-task-for-an-opportunity" title="Permalink to this headline">¶</a></h4>
+<p>When you click through to the detail view of an opportunity, you can create new sales tasks by clicking the ‘Add a Sales Task’ button.</p>
+<img alt="../_images/Opp_task.jpg" src="../_images/Opp_task.jpg" style="width: 800px;" />
+<p>Dialogue brought up on click as below.</p>
+<img alt="../_images/Opp_task2.jpg" src="../_images/Opp_task2.jpg" style="width: 800px;" />
+<p>You then choose (a) the type of sales task, e.g. call back, client visit, send information etc. (b) who to assign it to if other than yourself. (c) the due date for the task.</p>
+<p>If the tasks are assigned to yourself, you can update on screen the due date, the status of the task, and add short notes about the task.</p>
+</div>
+</div>
+<div class="section" id="managing-opportunities">
+<h3><a class="toc-backref" href="#id6">Managing Opportunities</a><a class="headerlink" href="#managing-opportunities" title="Permalink to this headline">¶</a></h3>
+<p>Your open opportunities are listed below your task list.</p>
+<p>They are organised according to their sales stage. Just click the list-filtering links to see all opportunities having that sales stage. E.g. Qualified Opportunities.</p>
+<p>Quickly cancel an open opportunity by clicking the ‘x’ icon to the right of it.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You may label the sales stages according to how your own sales organisation works.</p>
+</div>
+<div class="section" id="working-with-an-opportunity">
+<h4><a class="toc-backref" href="#id7">Working with an Opportunity.</a><a class="headerlink" href="#working-with-an-opportunity" title="Permalink to this headline">¶</a></h4>
+<p>When you click through to the detail page of a sales opportunity you can assign a sales rep, a value, a marketing campaign that yielded the opportunity, and notes about the opportunity.</p>
+<p>Ensure you click the ‘update’ button after making any changes.</p>
+<p>In addition you can update the sales stage according to the stages you work with within your organisation.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The sales stage may be triggered automatically rather than manually if desired. For example, you can make the change from ‘quote sent’ to ‘order confirmed’ dependent on recording a deposit payment within the system.</p>
+</div>
+<p>Sales tasks are handled as described in the above  section  - <a class="reference internal" href="#creating-a-new-sales-task-for-an-opportunity"><span class="std std-ref">Creating a new sales task for an opportunity</span></a></p>
+</div>
+<div class="section" id="managing-contacts-for-the-opportunity">
+<h4><a class="toc-backref" href="#id8">Managing Contacts for the Opportunity</a><a class="headerlink" href="#managing-contacts-for-the-opportunity" title="Permalink to this headline">¶</a></h4>
+<p>Contacts associated with the opportunity may be added by clicking ‘Add Existing’ button if an existing contact, or ‘Add New’ if a new contact.</p>
+</div>
+<div class="section" id="related-documents">
+<h4><a class="toc-backref" href="#id9">Related Documents</a><a class="headerlink" href="#related-documents" title="Permalink to this headline">¶</a></h4>
+<p>You may easily upload any documents associated with the opportunity.</p>
+<img alt="../_images/Opp_AddDoc.jpg" src="../_images/Opp_AddDoc.jpg" style="width: 800px;" />
+</div>
+</div>
+<div class="section" id="sales-statistics">
+<h3><a class="toc-backref" href="#id10">Sales Statistics</a><a class="headerlink" href="#sales-statistics" title="Permalink to this headline">¶</a></h3>
+<p>On the sales dashboard is a section displaying the performance of the sales person logged in for that week.</p>
+<p>Click the ‘Get Month’ button to display the performance over the month.</p>
+<ul class="simple">
+<li><p>Pipeline</p></li>
+<li><p>Sold</p></li>
+<li><p>Leads Lost</p></li>
+<li><p>Performance (ratios etc.)</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Management may get a much more detailed view and breakdown of the performance of all staff over whatever time period they require. Please refer to section - <a class="reference internal" href="../DocsOther/reporting.html#management-reporting"><span class="std std-ref">Management Reporting</span></a></p>
+</div>
+</div>
+<div class="section" id="sales-references">
+<h3><a class="toc-backref" href="#id11">Sales References</a><a class="headerlink" href="#sales-references" title="Permalink to this headline">¶</a></h3>
+<p>Finally on the sales dashboard there is a section to quickly look up previous customers, by installed product category and geographical location. This can be especially useful for selling to domestic prospects.</p>
+</div>
+</div>
+<div class="section" id="building-up-the-detail-for-a-potential-sales-order">
+<h2><a class="toc-backref" href="#id12">Building Up the Detail for a Potential Sales Order</a><a class="headerlink" href="#building-up-the-detail-for-a-potential-sales-order" title="Permalink to this headline">¶</a></h2>
+<p>We might simply describe this as the activities required to produce an estimate.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All information gathered at this stage by the sales internal person or organisation is available at later ‘Confirmed Order’ stage. Only the status of the sales order changes from ‘Estimate’ to ‘Confirmed Order’ (or similar in your own preferred terminology).</p>
+</div>
+<div class="section" id="estimating">
+<h3><a class="toc-backref" href="#id13">Estimating</a><a class="headerlink" href="#estimating" title="Permalink to this headline">¶</a></h3>
+<p>The core activities of learning about site conditions (whether by visiting the site or studying provided drawings) and specifying the equipment to be installed (whether by learning about customer requirements directly, or meeting the specifications set out in tender documents) are captured on the appropriate tab on the customer order screens.</p>
+<p>As the system is pre-populated with the organisation’s products, services, and survey templates, this can be done quickly and intuitively with a few clicks, and minimum text entry.</p>
+<img alt="../_images/InstallEstimate_Site.jpg" src="../_images/InstallEstimate_Site.jpg" style="width: 800px;" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For more on estimating and other topics in this section, please refer to the section - <a class="reference internal" href="../DocsSalesOrder/index.html#the-installation-order"><span class="std std-ref">THE INSTALLATION ORDER</span></a> where processes involved are discussed as pertaining to <em>both</em> sales and post-sales. (In other words, after the order has been won by the sales organisation other personnel will continue to build up needed detail about site conditions and specification of equipment.)</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+            
+  <div class="footer-relations">
+    
+      <div class="pull-left">
+        <a class="btn btn-default" href="index.html" title="previous chapter (use the left arrow)">CORE MODULES</a>
+      </div>
+    
+      <div class="pull-right">
+        <a class="btn btn-default" href="production.html" title="next chapter (use the right arrow)">Factory</a>
+      </div>
+    </div>
+    <div class="clearer"></div>
+  
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="production.html" title="Factory"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="CORE MODULES"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Onsite Solutions  documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >CORE MODULES</a> &#187;</li> 
+      </ul>
+    </div>
+<script type="text/javascript">
+  $("#mobile-toggle a").click(function () {
+    $("#left-column").toggle();
+  });
+</script>
+<script type="text/javascript" src="../_static/js/bootstrap.js"></script>
+  <div class="footer">
+    &copy; Copyright 2020, RK Software. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a>.
+  </div>
+  </body>
+</html>
